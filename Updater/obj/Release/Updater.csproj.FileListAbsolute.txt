@@ -1,0 +1,9 @@
+H:\Farm-Simulator-4-Hack-trainer\Updater\bin\Release\Updater.exe.config
+H:\Farm-Simulator-4-Hack-trainer\Updater\bin\Release\Updater.exe
+H:\Farm-Simulator-4-Hack-trainer\Updater\bin\Release\Updater.pdb
+H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.csproj.AssemblyReference.cache
+H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.Properties.Resources.resources
+H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.csproj.GenerateResource.cache
+H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.csproj.CoreCompileInputs.cache
+H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.exe
+H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.pdb
