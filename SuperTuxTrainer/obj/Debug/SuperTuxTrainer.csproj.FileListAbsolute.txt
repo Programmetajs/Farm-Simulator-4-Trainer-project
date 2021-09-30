@@ -37,3 +37,20 @@ H:\Farm-Simulator-4-Hack-trainer\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.cspro
 H:\Farm-Simulator-4-Hack-trainer\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.CoreCompileInputs.cache
 H:\Farm-Simulator-4-Hack-trainer\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.exe
 H:\Farm-Simulator-4-Hack-trainer\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.pdb
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\SuperTuxTrainer.exe.config
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\SuperTuxTrainer.exe
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\SuperTuxTrainer.pdb
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\MetroFramework.Design.dll
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\MetroFramework.dll
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\SimpleTCP.dll
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\Memory.xml
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.AssemblyReference.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.SuggestedBindingRedirects.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\Login_HWID.Login.resources
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.MainForm.resources
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.Properties.Resources.resources
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.GenerateResource.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.CoreCompileInputs.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.exe
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.pdb

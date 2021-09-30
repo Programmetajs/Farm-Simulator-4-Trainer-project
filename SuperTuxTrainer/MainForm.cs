@@ -144,5 +144,15 @@ namespace SuperTuxTrainer
         {
             MessageBox.Show("If you are free memmber then that means you have limited hacks/features in this application! For exsample you cant use Money hack or something else! To get premium or know more about that please contact to developer!" , "Info about free memmber rank!" , MessageBoxButtons.OK , MessageBoxIcon.Information);
         }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void metroButton6_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

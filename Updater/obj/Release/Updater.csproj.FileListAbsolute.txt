@@ -7,3 +7,13 @@ H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.csproj.GenerateReso
 H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.csproj.CoreCompileInputs.cache
 H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.exe
 H:\Farm-Simulator-4-Hack-trainer\Updater\obj\Release\Updater.pdb
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\bin\Release\Updater.exe.config
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\bin\Release\Updater.exe
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\bin\Release\Updater.pdb
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\obj\Release\Updater.csproj.AssemblyReference.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\obj\Release\Updater.csproj.SuggestedBindingRedirects.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\obj\Release\Updater.Properties.Resources.resources
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\obj\Release\Updater.csproj.GenerateResource.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\obj\Release\Updater.csproj.CoreCompileInputs.cache
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\obj\Release\Updater.exe
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\Updater\obj\Release\Updater.pdb

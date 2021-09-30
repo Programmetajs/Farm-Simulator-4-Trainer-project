@@ -42,7 +42,7 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
-                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("8"))
+                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("9"))
                 {
 
 
@@ -435,5 +435,15 @@ namespace Login_HWID
             this.label1.MouseMove += this.xMouseMove; //For Move Form
         }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Website/mainweb");
+        }
+
+        private void UpdateLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
+            System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
+        }
     }
 }

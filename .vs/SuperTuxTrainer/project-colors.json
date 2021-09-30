@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be1bec4e-0e17-423d-b141-f09e7ad25b52": {
+      "ProjectGuid": "be1bec4e-0e17-423d-b141-f09e7ad25b52",
+      "DisplayName": "SuperTuxTrainer",
+      "ColorIndex": 0
+    },
+    "31332ad3-8f69-4937-99b9-72910bd42a1e": {
+      "ProjectGuid": "31332ad3-8f69-4937-99b9-72910bd42a1e",
+      "DisplayName": "Updater",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

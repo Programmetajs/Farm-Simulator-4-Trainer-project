@@ -40,6 +40,8 @@ namespace Login_HWID
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Password = new System.Windows.Forms.TextBox();
+            this.RegistrationWebpageLink = new System.Windows.Forms.LinkLabel();
+            this.UpdateLink = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // LoginBTN
@@ -110,11 +112,35 @@ namespace Login_HWID
             this.Password.Size = new System.Drawing.Size(159, 22);
             this.Password.TabIndex = 8;
             // 
+            // RegistrationWebpageLink
+            // 
+            this.RegistrationWebpageLink.AutoSize = true;
+            this.RegistrationWebpageLink.Location = new System.Drawing.Point(103, 275);
+            this.RegistrationWebpageLink.Name = "RegistrationWebpageLink";
+            this.RegistrationWebpageLink.Size = new System.Drawing.Size(58, 16);
+            this.RegistrationWebpageLink.TabIndex = 9;
+            this.RegistrationWebpageLink.TabStop = true;
+            this.RegistrationWebpageLink.Text = "Register";
+            this.RegistrationWebpageLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // UpdateLink
+            // 
+            this.UpdateLink.AutoSize = true;
+            this.UpdateLink.Location = new System.Drawing.Point(103, 298);
+            this.UpdateLink.Name = "UpdateLink";
+            this.UpdateLink.Size = new System.Drawing.Size(58, 16);
+            this.UpdateLink.TabIndex = 10;
+            this.UpdateLink.TabStop = true;
+            this.UpdateLink.Text = "Register";
+            this.UpdateLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UpdateLink_LinkClicked);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(289, 334);
+            this.Controls.Add(this.UpdateLink);
+            this.Controls.Add(this.RegistrationWebpageLink);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -145,5 +171,7 @@ namespace Login_HWID
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox Password;
+        private System.Windows.Forms.LinkLabel RegistrationWebpageLink;
+        private System.Windows.Forms.LinkLabel UpdateLink;
     }
 }
