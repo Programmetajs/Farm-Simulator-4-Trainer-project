@@ -126,12 +126,12 @@ namespace Login_HWID
             // UpdateLink
             // 
             this.UpdateLink.AutoSize = true;
-            this.UpdateLink.Location = new System.Drawing.Point(103, 298);
+            this.UpdateLink.Location = new System.Drawing.Point(10, 298);
             this.UpdateLink.Name = "UpdateLink";
-            this.UpdateLink.Size = new System.Drawing.Size(58, 16);
+            this.UpdateLink.Size = new System.Drawing.Size(266, 16);
             this.UpdateLink.TabIndex = 10;
             this.UpdateLink.TabStop = true;
-            this.UpdateLink.Text = "Register";
+            this.UpdateLink.Text = "See Latest news about application updates!";
             this.UpdateLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UpdateLink_LinkClicked);
             // 
             // Login
@@ -150,6 +150,7 @@ namespace Login_HWID
             this.Controls.Add(this.LoginBTN);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
             this.Padding = new System.Windows.Forms.Padding(20, 74, 20, 20);

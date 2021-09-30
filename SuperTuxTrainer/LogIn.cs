@@ -443,7 +443,6 @@ namespace Login_HWID
         private void UpdateLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
-            System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
         }
     }
 }
