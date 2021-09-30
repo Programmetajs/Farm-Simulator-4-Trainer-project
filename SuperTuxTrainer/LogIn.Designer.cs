@@ -67,11 +67,11 @@ namespace Login_HWID
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(235, 254);
+            this.metroLabel1.Location = new System.Drawing.Point(220, 254);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(41, 20);
+            this.metroLabel1.Size = new System.Drawing.Size(46, 20);
             this.metroLabel1.TabIndex = 4;
-            this.metroLabel1.Text = "V 9.0";
+            this.metroLabel1.Text = "V 10.0";
             // 
             // NotofocationForApp
             // 
@@ -126,7 +126,7 @@ namespace Login_HWID
             // UpdateLink
             // 
             this.UpdateLink.AutoSize = true;
-            this.UpdateLink.Location = new System.Drawing.Point(10, 298);
+            this.UpdateLink.Location = new System.Drawing.Point(0, 298);
             this.UpdateLink.Name = "UpdateLink";
             this.UpdateLink.Size = new System.Drawing.Size(266, 16);
             this.UpdateLink.TabIndex = 10;
