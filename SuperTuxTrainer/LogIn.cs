@@ -89,7 +89,6 @@ namespace Login_HWID
                 if (webClient.DownloadString("https://gabhx.000webhostapp.com/ApplicationOpenOrNo").Contains("closed"))
                 {
                     MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!", "Application is diabled to use for now!");
-                    TimerAvability = Enabled = false;
                     Application.Exit();
 
                     /* if (MessageBox.Show("Closing application!!!", "Application usage is temporary disabled!", MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK)
