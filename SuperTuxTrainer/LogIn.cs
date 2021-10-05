@@ -74,6 +74,44 @@ namespace Login_HWID
         }
 
 
+        #region Timer about application enablition
+        private void TimerAvability_Tick(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+            WebClient webClient = new WebClient();
+            try
+            {
+                if (webClient.DownloadString("https://gabhx.000webhostapp.com/test").Contains("closed"))
+                {
+                    MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!", "Application is diabled to use for now!");
+                    TimerAvability = Enabled = false;
+                    Application.Exit();
+
+                    /* if (MessageBox.Show("Closing application!!!", "Application usage is temporary disabled!", MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK)
+                         using (var client = new WebClient())
+                         {
+                             Timer = Enabled = false;
+                             Application.Exit();
+                         }*/
+                }
+                else
+                {
+
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+        #endregion
+
         //Button for Login
         #region "Button Login"
 
@@ -447,39 +485,5 @@ namespace Login_HWID
             System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
         }
 
-        private void TimerAvability_Tick(object sender, EventArgs e)
-        {
-            
-            
-            
-            
-            
-            
-            WebClient webClient = new WebClient();
-            try
-            {
-                if (webClient.DownloadString("https://gabhx.000webhostapp.com/test").Contains("closed"))
-                {
-                    MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!" , "Application is diabled to use for now!");
-                    TimerAvability = Enabled = false;
-                    Application.Exit();
-
-                   /* if (MessageBox.Show("Closing application!!!", "Application usage is temporary disabled!", MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK)
-                        using (var client = new WebClient())
-                        {
-                            Timer = Enabled = false;
-                            Application.Exit();
-                        }*/
-                }
-                else
-                {
-
-                }
-            }
-            catch
-            {
-
-            }
-        }
     }
 }
