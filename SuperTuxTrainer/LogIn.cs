@@ -100,6 +100,8 @@ namespace Login_HWID
                 }
                 else
                 {
+                    accessibilityFormTXT.Text = "Open/Allowed to use";
+                    NotofocationForApp.ShowBalloonTip(1000, "Update is reddy!!!", "Go and update app to get new and fresh UI/HACKS-updates", ToolTipIcon.Info);
 
                 }
             }

@@ -43,6 +43,10 @@ namespace Login_HWID
             this.Password = new System.Windows.Forms.TextBox();
             this.RegistrationWebpageLink = new System.Windows.Forms.LinkLabel();
             this.UpdateLink = new System.Windows.Forms.LinkLabel();
+            this.accessibilityFormTXT = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             TimerAvability = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
@@ -75,7 +79,7 @@ namespace Login_HWID
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(220, 254);
+            this.metroLabel1.Location = new System.Drawing.Point(293, 330);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(46, 20);
             this.metroLabel1.TabIndex = 4;
@@ -83,6 +87,8 @@ namespace Login_HWID
             // 
             // NotofocationForApp
             // 
+            this.NotofocationForApp.ContextMenuStrip = this.contextMenuStrip1;
+            this.NotofocationForApp.Icon = ((System.Drawing.Icon)(resources.GetObject("NotofocationForApp.Icon")));
             this.NotofocationForApp.Text = "Notification from trainer!";
             this.NotofocationForApp.Visible = true;
             // 
@@ -142,11 +148,47 @@ namespace Login_HWID
             this.UpdateLink.Text = "See Latest news about application updates!";
             this.UpdateLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UpdateLink_LinkClicked);
             // 
+            // accessibilityFormTXT
+            // 
+            this.accessibilityFormTXT.AutoSize = true;
+            this.accessibilityFormTXT.Location = new System.Drawing.Point(14, 375);
+            this.accessibilityFormTXT.Name = "accessibilityFormTXT";
+            this.accessibilityFormTXT.Size = new System.Drawing.Size(15, 20);
+            this.accessibilityFormTXT.TabIndex = 11;
+            this.accessibilityFormTXT.Text = "-";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(14, 355);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(119, 20);
+            this.metroLabel2.TabIndex = 12;
+            this.metroLabel2.Text = "Application status:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(57, 314);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(178, 16);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Information about application";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(289, 334);
+            this.ClientSize = new System.Drawing.Size(346, 421);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.metroLabel2);
+            this.Controls.Add(this.accessibilityFormTXT);
             this.Controls.Add(this.UpdateLink);
             this.Controls.Add(this.RegistrationWebpageLink);
             this.Controls.Add(this.Password);
@@ -182,5 +224,9 @@ namespace Login_HWID
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.LinkLabel RegistrationWebpageLink;
         private System.Windows.Forms.LinkLabel UpdateLink;
+        private MetroFramework.Controls.MetroLabel accessibilityFormTXT;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
