@@ -46,10 +46,10 @@ namespace Login_HWID
             // 
             // LoginBTN
             // 
-            this.LoginBTN.Location = new System.Drawing.Point(60, 225);
-            this.LoginBTN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.LoginBTN.Location = new System.Drawing.Point(45, 183);
+            this.LoginBTN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.LoginBTN.Name = "LoginBTN";
-            this.LoginBTN.Size = new System.Drawing.Size(147, 23);
+            this.LoginBTN.Size = new System.Drawing.Size(110, 19);
             this.LoginBTN.TabIndex = 0;
             this.LoginBTN.Text = "Login";
             this.LoginBTN.UseSelectable = true;
@@ -58,20 +58,22 @@ namespace Login_HWID
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 60);
+            this.label1.Location = new System.Drawing.Point(36, 49);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 20);
+            this.label1.Size = new System.Drawing.Size(171, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "Enter your information here";
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(235, 254);
+            this.metroLabel1.Location = new System.Drawing.Point(176, 206);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(41, 20);
+            this.metroLabel1.Size = new System.Drawing.Size(43, 19);
             this.metroLabel1.TabIndex = 4;
-            this.metroLabel1.Text = "V 9.0";
+            this.metroLabel1.Text = "V 10.0";
             // 
             // NotofocationForApp
             // 
@@ -80,44 +82,47 @@ namespace Login_HWID
             // 
             // Usernametb
             // 
-            this.Usernametb.Location = new System.Drawing.Point(55, 117);
-            this.Usernametb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Usernametb.Location = new System.Drawing.Point(41, 95);
+            this.Usernametb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Usernametb.Name = "Usernametb";
-            this.Usernametb.Size = new System.Drawing.Size(159, 22);
+            this.Usernametb.Size = new System.Drawing.Size(120, 20);
             this.Usernametb.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(64, 153);
+            this.label2.Location = new System.Drawing.Point(48, 124);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 16);
+            this.label2.Size = new System.Drawing.Size(103, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Enter your password";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(64, 97);
+            this.label3.Location = new System.Drawing.Point(48, 79);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 16);
+            this.label3.Size = new System.Drawing.Size(106, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Enter your Username";
             // 
             // Password
             // 
-            this.Password.Location = new System.Drawing.Point(55, 183);
-            this.Password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Password.Location = new System.Drawing.Point(41, 149);
+            this.Password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(159, 22);
+            this.Password.Size = new System.Drawing.Size(120, 20);
             this.Password.TabIndex = 8;
             // 
             // RegistrationWebpageLink
             // 
             this.RegistrationWebpageLink.AutoSize = true;
-            this.RegistrationWebpageLink.Location = new System.Drawing.Point(103, 275);
+            this.RegistrationWebpageLink.Location = new System.Drawing.Point(77, 223);
+            this.RegistrationWebpageLink.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.RegistrationWebpageLink.Name = "RegistrationWebpageLink";
-            this.RegistrationWebpageLink.Size = new System.Drawing.Size(58, 16);
+            this.RegistrationWebpageLink.Size = new System.Drawing.Size(46, 13);
             this.RegistrationWebpageLink.TabIndex = 9;
             this.RegistrationWebpageLink.TabStop = true;
             this.RegistrationWebpageLink.Text = "Register";
@@ -126,9 +131,10 @@ namespace Login_HWID
             // UpdateLink
             // 
             this.UpdateLink.AutoSize = true;
-            this.UpdateLink.Location = new System.Drawing.Point(10, 298);
+            this.UpdateLink.Location = new System.Drawing.Point(8, 242);
+            this.UpdateLink.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.UpdateLink.Name = "UpdateLink";
-            this.UpdateLink.Size = new System.Drawing.Size(266, 16);
+            this.UpdateLink.Size = new System.Drawing.Size(214, 13);
             this.UpdateLink.TabIndex = 10;
             this.UpdateLink.TabStop = true;
             this.UpdateLink.Text = "See Latest news about application updates!";
@@ -136,9 +142,9 @@ namespace Login_HWID
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(289, 334);
+            this.ClientSize = new System.Drawing.Size(229, 271);
             this.Controls.Add(this.UpdateLink);
             this.Controls.Add(this.RegistrationWebpageLink);
             this.Controls.Add(this.Password);
@@ -149,11 +155,11 @@ namespace Login_HWID
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LoginBTN);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
-            this.Padding = new System.Windows.Forms.Padding(20, 74, 20, 20);
+            this.Padding = new System.Windows.Forms.Padding(15, 60, 15, 16);
             this.Resizable = false;
             this.Text = "LogIn";
             this.Load += new System.EventHandler(this.Login_Load);

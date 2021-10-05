@@ -48,24 +48,7 @@ namespace SuperTuxTrainer
             BGWorker.ReportProgress(0); // do UI thread stuff
 
 
-           /* WebClient webClient = new WebClient();
-            try
-            {
-                if (webClient.DownloadString("https://gabhx.000webhostapp.com/test").Contains("testup"))
-                {
-                    NotificationForApp.ShowBalloonTip(1500, "Game is found!", "The applications is found the game! Go and HACK!", ToolTipIcon.Info);
-
-
-                }
-                else
-                {
-
-                }
-            }
-            catch
-            {
-
-            }*/
+           
 
         }
 

@@ -42,6 +42,26 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
+                if (webClient.DownloadString("https://gabhx.000webhostapp.com/test").Contains("closed"))
+                {
+                    MessageBox.Show("Closing application!!!");
+                    MainForm ClosingApp = new MainForm();
+                    ClosingApp.Close();
+
+
+                }
+                else
+                {
+
+                }
+            }
+            catch
+            {
+
+            }
+
+           /* try
+            {
                 if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("9"))
                 {
 
@@ -68,7 +88,7 @@ namespace Login_HWID
             catch
             {
                 //MessageBox.Show("Youu have wifi or inthernet problems!");   
-            }
+            }*/
         }
 
 
