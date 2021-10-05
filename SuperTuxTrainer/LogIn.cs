@@ -86,7 +86,7 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
-                if (webClient.DownloadString("https://gabhx.000webhostapp.com/test").Contains("closed"))
+                if (webClient.DownloadString("https://gabhx.000webhostapp.com/ApplicationOpenOrNo").Contains("closed"))
                 {
                     MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!", "Application is diabled to use for now!");
                     TimerAvability = Enabled = false;
