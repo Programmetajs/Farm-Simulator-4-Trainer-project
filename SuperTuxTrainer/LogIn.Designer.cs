@@ -31,6 +31,7 @@ namespace Login_HWID
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Timer TimerAvability;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.LoginBTN = new MetroFramework.Controls.MetroButton();
             this.label1 = new MetroFramework.Controls.MetroLabel();
@@ -42,7 +43,14 @@ namespace Login_HWID
             this.Password = new System.Windows.Forms.TextBox();
             this.RegistrationWebpageLink = new System.Windows.Forms.LinkLabel();
             this.UpdateLink = new System.Windows.Forms.LinkLabel();
+            TimerAvability = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
+            // 
+            // TimerAvability
+            // 
+            TimerAvability.Enabled = true;
+            TimerAvability.Interval = 30000;
+            TimerAvability.Tick += new System.EventHandler(this.TimerAvability_Tick);
             // 
             // LoginBTN
             // 
