@@ -419,9 +419,9 @@ namespace Login_HWID
 
 
             WebClient fetchBanInfo = new WebClient();
-            string premiumState = fetchBanInfo.DownloadString("https://gabhx.000webhostapp.com/API/execute.php?action=isPremium&userName=" + Usernametb.Text); //<== API for check if player is PREMIUM / BANNED / FREE
+            string premiumState = fetchBanInfo.DownloadString("https://gabhx.000webhostapp.com/API/execute.php?action=isPremium&userName=" + Usernametb.Text);
 
-            if (premiumState == "BANNED") //<== If detect player is BANNED
+            if (premiumState == "BANNED")
             {
                 MessageBox.Show("You are banned.", "Login HWID", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
