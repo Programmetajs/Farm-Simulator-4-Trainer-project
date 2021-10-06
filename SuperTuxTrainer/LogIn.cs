@@ -44,26 +44,6 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
-                if (webClient.DownloadString("https://gabhx.000webhostapp.com/test").Contains("closed"))
-                {
-                    MessageBox.Show("Closing application!!!");
-                    MainForm ClosingApp = new MainForm();
-                    ClosingApp.Close();
-
-
-                }
-                else
-                {
-
-                }
-            }
-            catch
-            {
-
-            }
-
-            try
-            {
                 if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("10"))
                 {
 
@@ -108,7 +88,8 @@ namespace Login_HWID
             {
                 if (webClient.DownloadString("https://gabhx.000webhostapp.com/ApplicationOpenOrNo").Contains("closed"))
                 {
-                    MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!", "Application is diabled to use for now!");
+                    NotofocationForApp.ShowBalloonTip(1000, "Application is locked!", "Sorry but this application is currently unavable for some reason! Please contact to developer for detalizated information!", ToolTipIcon.Warning);
+                    MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!", "Application is diabled to use for now!" , MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     Application.Exit();
 
                     /* if (MessageBox.Show("Closing application!!!", "Application usage is temporary disabled!", MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK)
@@ -121,7 +102,7 @@ namespace Login_HWID
                 else
                 {
                     accessibilityFormTXT.Text = "Open/Allowed to use";
-                    NotofocationForApp.ShowBalloonTip(1000, "Update is reddy!!!", "Go and update app to get new and fresh UI/HACKS-updates", ToolTipIcon.Info);
+                    NotofocationForApp.ShowBalloonTip(1000, "Application is reddy to use!", "This message will show you that when application is avable to use or its closed from some reason!", ToolTipIcon.Info);
 
                 }
             }
@@ -432,6 +413,27 @@ namespace Login_HWID
         #endregion
 
 
+        private void BanCheck_Tick(object sender, EventArgs e)
+        {
+
+
+
+            WebClient fetchBanInfo = new WebClient();
+            string premiumState = fetchBanInfo.DownloadString("https://gabhx.000webhostapp.com/API/execute.php?action=isPremium&userName=" + Usernametb.Text); //<== API for check if player is PREMIUM / BANNED / FREE
+
+            if (premiumState == "BANNED") //<== If detect player is BANNED
+            {
+                MessageBox.Show("You are banned.", "Login HWID", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+           /*else
+            {
+                Application.Exit();
+            }*/
+
+
+
+        }
 
 
 

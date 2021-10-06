@@ -37,16 +37,18 @@ namespace Login_HWID
             this.label1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.NotofocationForApp = new System.Windows.Forms.NotifyIcon(this.components);
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.Usernametb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Password = new System.Windows.Forms.TextBox();
             this.RegistrationWebpageLink = new System.Windows.Forms.LinkLabel();
             this.UpdateLink = new System.Windows.Forms.LinkLabel();
-            this.accessibilityFormTXT = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.label4 = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.label5 = new System.Windows.Forms.Label();
+            this.accessibilityFormTXT = new System.Windows.Forms.Label();
+            this.BanCheck = new System.Windows.Forms.Timer(this.components);
             TimerAvability = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
@@ -59,7 +61,7 @@ namespace Login_HWID
             // LoginBTN
             // 
             this.LoginBTN.Location = new System.Drawing.Point(45, 183);
-            this.LoginBTN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LoginBTN.Margin = new System.Windows.Forms.Padding(2);
             this.LoginBTN.Name = "LoginBTN";
             this.LoginBTN.Size = new System.Drawing.Size(110, 19);
             this.LoginBTN.TabIndex = 0;
@@ -80,9 +82,9 @@ namespace Login_HWID
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(235, 254);
+            this.metroLabel1.Location = new System.Drawing.Point(233, 388);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(41, 20);
+            this.metroLabel1.Size = new System.Drawing.Size(43, 19);
             this.metroLabel1.TabIndex = 4;
             this.metroLabel1.Text = "V 10.0";
             // 
@@ -93,10 +95,16 @@ namespace Login_HWID
             this.NotofocationForApp.Text = "Notification from trainer!";
             this.NotofocationForApp.Visible = true;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // Usernametb
             // 
             this.Usernametb.Location = new System.Drawing.Point(41, 95);
-            this.Usernametb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Usernametb.Margin = new System.Windows.Forms.Padding(2);
             this.Usernametb.Name = "Usernametb";
             this.Usernametb.Size = new System.Drawing.Size(120, 20);
             this.Usernametb.TabIndex = 5;
@@ -124,7 +132,7 @@ namespace Login_HWID
             // Password
             // 
             this.Password.Location = new System.Drawing.Point(41, 149);
-            this.Password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Password.Margin = new System.Windows.Forms.Padding(2);
             this.Password.Name = "Password";
             this.Password.Size = new System.Drawing.Size(120, 20);
             this.Password.TabIndex = 8;
@@ -152,15 +160,6 @@ namespace Login_HWID
             this.UpdateLink.Text = "See Latest news about application updates!";
             this.UpdateLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UpdateLink_LinkClicked);
             // 
-            // accessibilityFormTXT
-            // 
-            this.accessibilityFormTXT.AutoSize = true;
-            this.accessibilityFormTXT.Location = new System.Drawing.Point(14, 375);
-            this.accessibilityFormTXT.Name = "accessibilityFormTXT";
-            this.accessibilityFormTXT.Size = new System.Drawing.Size(15, 20);
-            this.accessibilityFormTXT.TabIndex = 11;
-            this.accessibilityFormTXT.Text = "-";
-            // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
@@ -179,17 +178,37 @@ namespace Login_HWID
             this.label4.TabIndex = 13;
             this.label4.Text = "Information about application";
             // 
-            // contextMenuStrip1
+            // label5
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(10, 331);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(93, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Application status:";
+            // 
+            // accessibilityFormTXT
+            // 
+            this.accessibilityFormTXT.AutoSize = true;
+            this.accessibilityFormTXT.Location = new System.Drawing.Point(10, 354);
+            this.accessibilityFormTXT.Name = "accessibilityFormTXT";
+            this.accessibilityFormTXT.Size = new System.Drawing.Size(10, 13);
+            this.accessibilityFormTXT.TabIndex = 12;
+            this.accessibilityFormTXT.Text = "-";
+            // 
+            // BanCheck
+            // 
+            this.BanCheck.Enabled = true;
+            this.BanCheck.Interval = 1000;
+            this.BanCheck.Tick += new System.EventHandler(this.BanCheck_Tick);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(289, 334);
+            this.ClientSize = new System.Drawing.Size(280, 414);
+            this.Controls.Add(this.accessibilityFormTXT);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.UpdateLink);
             this.Controls.Add(this.RegistrationWebpageLink);
             this.Controls.Add(this.Password);
@@ -200,7 +219,7 @@ namespace Login_HWID
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LoginBTN);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
@@ -225,9 +244,11 @@ namespace Login_HWID
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.LinkLabel RegistrationWebpageLink;
         private System.Windows.Forms.LinkLabel UpdateLink;
-        private MetroFramework.Controls.MetroLabel accessibilityFormTXT;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label accessibilityFormTXT;
+        private System.Windows.Forms.Timer BanCheck;
     }
 }
