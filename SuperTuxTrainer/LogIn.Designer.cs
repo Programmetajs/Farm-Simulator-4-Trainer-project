@@ -31,6 +31,7 @@ namespace Login_HWID
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.Timer TimerAvability;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.LoginBTN = new MetroFramework.Controls.MetroButton();
             this.label1 = new MetroFramework.Controls.MetroLabel();
@@ -42,7 +43,18 @@ namespace Login_HWID
             this.Password = new System.Windows.Forms.TextBox();
             this.RegistrationWebpageLink = new System.Windows.Forms.LinkLabel();
             this.UpdateLink = new System.Windows.Forms.LinkLabel();
+            this.accessibilityFormTXT = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            TimerAvability = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
+            // 
+            // TimerAvability
+            // 
+            TimerAvability.Enabled = true;
+            TimerAvability.Interval = 30000;
+            TimerAvability.Tick += new System.EventHandler(this.TimerAvability_Tick);
             // 
             // LoginBTN
             // 
@@ -68,15 +80,16 @@ namespace Login_HWID
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(176, 206);
-            this.metroLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metroLabel1.Location = new System.Drawing.Point(235, 254);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(43, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(41, 20);
             this.metroLabel1.TabIndex = 4;
             this.metroLabel1.Text = "V 10.0";
             // 
             // NotofocationForApp
             // 
+            this.NotofocationForApp.ContextMenuStrip = this.contextMenuStrip1;
+            this.NotofocationForApp.Icon = ((System.Drawing.Icon)(resources.GetObject("NotofocationForApp.Icon")));
             this.NotofocationForApp.Text = "Notification from trainer!";
             this.NotofocationForApp.Visible = true;
             // 
@@ -131,8 +144,7 @@ namespace Login_HWID
             // UpdateLink
             // 
             this.UpdateLink.AutoSize = true;
-            this.UpdateLink.Location = new System.Drawing.Point(8, 242);
-            this.UpdateLink.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.UpdateLink.Location = new System.Drawing.Point(10, 298);
             this.UpdateLink.Name = "UpdateLink";
             this.UpdateLink.Size = new System.Drawing.Size(214, 13);
             this.UpdateLink.TabIndex = 10;
@@ -140,11 +152,44 @@ namespace Login_HWID
             this.UpdateLink.Text = "See Latest news about application updates!";
             this.UpdateLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UpdateLink_LinkClicked);
             // 
+            // accessibilityFormTXT
+            // 
+            this.accessibilityFormTXT.AutoSize = true;
+            this.accessibilityFormTXT.Location = new System.Drawing.Point(14, 375);
+            this.accessibilityFormTXT.Name = "accessibilityFormTXT";
+            this.accessibilityFormTXT.Size = new System.Drawing.Size(15, 20);
+            this.accessibilityFormTXT.TabIndex = 11;
+            this.accessibilityFormTXT.Text = "-";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(14, 355);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(119, 20);
+            this.metroLabel2.TabIndex = 12;
+            this.metroLabel2.Text = "Application status:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(57, 314);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(178, 16);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Information about application";
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(229, 271);
+            this.ClientSize = new System.Drawing.Size(289, 334);
             this.Controls.Add(this.UpdateLink);
             this.Controls.Add(this.RegistrationWebpageLink);
             this.Controls.Add(this.Password);
@@ -180,5 +225,9 @@ namespace Login_HWID
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.LinkLabel RegistrationWebpageLink;
         private System.Windows.Forms.LinkLabel UpdateLink;
+        private MetroFramework.Controls.MetroLabel accessibilityFormTXT;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

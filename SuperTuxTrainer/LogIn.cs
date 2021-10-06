@@ -31,6 +31,8 @@ namespace Login_HWID
         public TextBox UserName;
         public TextBox PassTB;
 
+        public object TimerAvability { get; private set; }
+
         [Obsolete]
         public Login()
         {
@@ -60,9 +62,9 @@ namespace Login_HWID
 
             }
 
-           /* try
+            try
             {
-                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("9"))
+                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("10"))
                 {
 
 
@@ -88,9 +90,48 @@ namespace Login_HWID
             catch
             {
                 //MessageBox.Show("Youu have wifi or inthernet problems!");   
-            }*/
+            }
         }
 
+
+        #region Timer about application enablition
+        private void TimerAvability_Tick(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+            WebClient webClient = new WebClient();
+            try
+            {
+                if (webClient.DownloadString("https://gabhx.000webhostapp.com/ApplicationOpenOrNo").Contains("closed"))
+                {
+                    MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!", "Application is diabled to use for now!");
+                    Application.Exit();
+
+                    /* if (MessageBox.Show("Closing application!!!", "Application usage is temporary disabled!", MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK)
+                         using (var client = new WebClient())
+                         {
+                             Timer = Enabled = false;
+                             Application.Exit();
+                         }*/
+                }
+                else
+                {
+                    accessibilityFormTXT.Text = "Open/Allowed to use";
+                    NotofocationForApp.ShowBalloonTip(1000, "Update is reddy!!!", "Go and update app to get new and fresh UI/HACKS-updates", ToolTipIcon.Info);
+
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+        #endregion
 
         //Button for Login
         #region "Button Login"
@@ -464,5 +505,6 @@ namespace Login_HWID
         {
             System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
         }
+
     }
 }
