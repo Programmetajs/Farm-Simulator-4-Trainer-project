@@ -82,6 +82,7 @@ namespace SuperTuxTrainer
         {
             BGWorker.RunWorkerAsync();
         }
+        #region Hacks
 
         private void SendCoinValue_Click(object sender, EventArgs e)
         {
@@ -122,7 +123,7 @@ namespace SuperTuxTrainer
             if (Harvest.Text != "" && ProcOpen) // check if process is avialable/open and if textbox has text in it
                 m.WriteMemory("game.exe+00149C30,20,48,8C", "Float" , Harvest.Text);
         }
-
+        #endregion 
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("If you are free memmber then that means you have limited hacks/features in this application! For exsample you cant use Money hack or something else! To get premium or know more about that please contact to developer!" , "Info about free memmber rank!" , MessageBoxButtons.OK , MessageBoxIcon.Information);

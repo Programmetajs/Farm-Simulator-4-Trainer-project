@@ -12,6 +12,7 @@
         <CheatEntry>
           <ID>6</ID>
           <Description>"Coin pointersssssssssssss"</Description>
+          <LastState Value="0" RealAddress="06B019B8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Double</VariableType>
           <Address>game.exe+00149C30</Address>
@@ -23,6 +24,7 @@
         <CheatEntry>
           <ID>9</ID>
           <Description>"Fule for all "</Description>
+          <LastState Value="0" RealAddress="06B4236C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>"game.exe"+00149C50</Address>
@@ -38,6 +40,7 @@
         <CheatEntry>
           <ID>10</ID>
           <Description>"harvester id's"</Description>
+          <LastState Value="11" RealAddress="06B420A8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>4 Bytes</VariableType>
           <Address>game.exe+00149C30</Address>
@@ -50,6 +53,7 @@
         <CheatEntry>
           <ID>11</ID>
           <Description>"Harvester %"</Description>
+          <LastState Value="0" RealAddress="06B420AC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Float</VariableType>
           <Address>game.exe+00149C30</Address>
@@ -70,6 +74,7 @@
     <CheatEntry>
       <ID>26</ID>
       <Description>"pointerscan result"</Description>
+      <LastState Value="0" RealAddress="01260578"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"game.exe"+00149C50</Address>
@@ -556,5 +561,6 @@
     </CodeEntry>
   </CheatCodes>
   <UserdefinedSymbols/>
-  <Comments>4096 beep value</Comments>
+  <Comments>4096 beep value
+</Comments>
 </CheatTable>

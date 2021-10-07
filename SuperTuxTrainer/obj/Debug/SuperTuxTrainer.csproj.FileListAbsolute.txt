@@ -69,6 +69,5 @@ C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTr
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.Properties.Resources.resources
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.GenerateResource.cache
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.CopyComplete
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.exe
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.pdb
