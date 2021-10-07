@@ -44,16 +44,14 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
-                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("10"))
+                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("11"))
                 {
 
 
-                    if (MessageBox.Show("Looks like there is an update! Do you want to download it?", "Update reddy!!!", MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK)
-                        using (var client = new WebClient())
-                        {
-                            Process.Start("Updater.exe");
-                            this.Close();
-                        }
+                    MessageBox.Show("Looks like there is an update! Do you want to download it?", "Update reddy!!!", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                    Process.Start("Updater.exe");
+                    this.Close();
+                        
                     //NotofocationForApp.ShowBalloonTip(1000, "Update is reddy!!!", "Go and update app to get new and fresh UI/HACKS-updates", ToolTipIcon.Info);
 
 

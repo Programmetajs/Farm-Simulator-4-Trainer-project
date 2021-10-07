@@ -86,7 +86,7 @@ namespace Login_HWID
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(46, 20);
             this.metroLabel1.TabIndex = 4;
-            this.metroLabel1.Text = "V 10.0";
+            this.metroLabel1.Text = "V 11.0";
             // 
             // NotofocationForApp
             // 
