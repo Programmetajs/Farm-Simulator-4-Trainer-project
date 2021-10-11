@@ -44,8 +44,6 @@ C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-
 C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\MetroFramework.dll
 C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\SimpleTCP.dll
-C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Debug\Memory.xml
-C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.AssemblyReference.cache
 C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.SuggestedBindingRedirects.cache
 C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\Login_HWID.Login.resources
 C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.MainForm.resources
@@ -71,3 +69,4 @@ C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTr
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.exe
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.pdb
+C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Debug\SuperTuxTrainer.csproj.CopyComplete
