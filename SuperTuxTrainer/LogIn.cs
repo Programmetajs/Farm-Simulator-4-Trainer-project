@@ -19,7 +19,7 @@ using System.Windows.Forms;
 using MetroFramework.Forms;
 using SuperTuxTrainer;
 using System.Diagnostics;
-
+using static System.Exception;
 namespace Login_HWID
 {
     public partial class Login : MetroForm
@@ -65,8 +65,12 @@ namespace Login_HWID
 
                 }
             }
-            catch
+            catch //(HttpListenerException)
             {
+                MessageBox.Show("Maybe you hawe bad Network connection or you are offline! Please check your connection or connect with other WIFI/Inthernet and then launch app again!", "NETWORK ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+               // LoginBTN.Text = "Login"; //<== Reset Text Btn
+
                 //MessageBox.Show("Youu have wifi or inthernet problems!");   
             }
         }
@@ -75,11 +79,6 @@ namespace Login_HWID
         #region Timer about application enablition
         private void TimerAvability_Tick(object sender, EventArgs e)
         {
-
-
-
-
-
 
             WebClient webClient = new WebClient();
             try
@@ -166,7 +165,7 @@ namespace Login_HWID
                     }
                 }
             }
-            catch (Exception)
+            catch
             {
                 MessageBox.Show("Maybe you hawe bad Network connection or you are offline! Please check your connection or connect with other WIFI/Inthernet","NETWORK ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 LoginBTN.Text = "Login"; //<== Reset Text Btn
