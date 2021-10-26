@@ -44,7 +44,7 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
-                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("11"))
+                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("10"))
                 {
 
 
