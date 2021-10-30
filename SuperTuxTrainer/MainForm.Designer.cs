@@ -45,6 +45,7 @@ namespace SuperTuxTrainer
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.seedidBox = new MetroFramework.Controls.MetroTextBox();
@@ -69,7 +70,6 @@ namespace SuperTuxTrainer
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton6 = new MetroFramework.Controls.MetroButton();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroTabPage2.SuspendLayout();
             this.metroTabPage3.SuspendLayout();
@@ -153,6 +153,16 @@ namespace SuperTuxTrainer
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 11;
+            // 
+            // metroLabel7
+            // 
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.Location = new System.Drawing.Point(48, 79);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(134, 20);
+            this.metroLabel7.TabIndex = 13;
+            this.metroLabel7.Text = "Seed % in harvester";
+            this.metroLabel7.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroLabel5
             // 
@@ -545,20 +555,11 @@ namespace SuperTuxTrainer
             this.metroButton6.UseSelectable = true;
             this.metroButton6.Click += new System.EventHandler(this.metroButton6_Click);
             // 
-            // metroLabel7
-            // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(48, 79);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(134, 20);
-            this.metroLabel7.TabIndex = 13;
-            this.metroLabel7.Text = "Seed % in harvester";
-            this.metroLabel7.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(24, 52);
+            this.metroLabel4.ForeColor = System.Drawing.Color.Transparent;
+            this.metroLabel4.Location = new System.Drawing.Point(23, 52);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(117, 20);
             this.metroLabel4.TabIndex = 7;

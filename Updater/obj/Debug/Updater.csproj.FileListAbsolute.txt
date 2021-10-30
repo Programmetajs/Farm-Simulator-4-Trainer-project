@@ -54,3 +54,13 @@ C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\Updater\ob
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.exe
 C:\Users\User\Desktop\GitHub Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.pdb
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\bin\Debug\Updater.exe.config
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\bin\Debug\Updater.exe
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\bin\Debug\Updater.pdb
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.csproj.AssemblyReference.cache
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.csproj.SuggestedBindingRedirects.cache
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.Properties.Resources.resources
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.csproj.GenerateResource.cache
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.exe
+C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\Updater\obj\Debug\Updater.pdb

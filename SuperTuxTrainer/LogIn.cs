@@ -1,11 +1,4 @@
-﻿/* change isPremium for user to "PREMIUM" for he can use application
- * change isPremium for user to "BANNED" if you want ban user
- * change isPremium for user to "FREE" (DEFAULT) if he don't have purchase application for get access
- * 
- * If you want reset HWID for a user, change table whitelist to: RESET (default) when he will login on his account it's will add his new HWID
- */
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,40 +37,29 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
-                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("10"))
+                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("12"))
                 {
 
 
                     MessageBox.Show("Looks like there is an update! Do you want to download it?", "Update reddy!!!", MessageBoxButtons.OK, MessageBoxIcon.Question);
                     Process.Start("Updater.exe");
                     this.Close();
-                        
-                    //NotofocationForApp.ShowBalloonTip(1000, "Update is reddy!!!", "Go and update app to get new and fresh UI/HACKS-updates", ToolTipIcon.Info);
-
-
-
                 }
                 else 
                 {
                     MessageBox.Show("You are up to date!No updates for now! :)", "Alreddy done!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    //NotofocationForApp.ShowBalloonTip(1000, "Update is reddy!!!", "Go and update app to get new and fresh HACKS/updates", ToolTipIcon.Info);
-
                 }
             }
-            catch //(HttpListenerException)
+            catch
             {
                 MessageBox.Show("Maybe you hawe bad Network connection or you are offline! Please check your connection or connect with other WIFI/Inthernet and then launch app again!", "NETWORK ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
-               // LoginBTN.Text = "Login"; //<== Reset Text Btn
-
-                //MessageBox.Show("Youu have wifi or inthernet problems!");   
             }
         }
 
 
         #region Timer about application enablition
-        private void TimerAvability_Tick(object sender, EventArgs e)
+        public void TimerAvability_Tick(object sender, EventArgs e)
         {
 
             WebClient webClient = new WebClient();
@@ -88,19 +70,11 @@ namespace Login_HWID
                     NotofocationForApp.ShowBalloonTip(1000, "Application is locked!", "Sorry but this application is currently unavable for some reason! Please contact to developer for detalizated information!", ToolTipIcon.Warning);
                     MessageBox.Show("This application is temporary diabled! Please contact to developer for detalizated information!", "Application is diabled to use for now!" , MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     Application.Exit();
-
-                    /* if (MessageBox.Show("Closing application!!!", "Application usage is temporary disabled!", MessageBoxButtons.OK, MessageBoxIcon.Question) == DialogResult.OK)
-                         using (var client = new WebClient())
-                         {
-                             Timer = Enabled = false;
-                             Application.Exit();
-                         }*/
                 }
                 else
                 {
                     accessibilityFormTXT.Text = "Open/Allowed to use";
                     NotofocationForApp.ShowBalloonTip(1000, "Application is reddy to use!", "This message will show you that when application is avable to use or its closed from some reason!", ToolTipIcon.Info);
-
                 }
             }
             catch
@@ -115,30 +89,32 @@ namespace Login_HWID
         #region "Button Login"
 
         [Obsolete]
-        private void LoginBTN_Click(object sender, EventArgs e) //<== Button for check if username + password match and check if player is PREMIUM / BANNED / FREE
+        private void LoginBTN_Click(object sender, EventArgs e)
         {
 
 
-            LoginBTN.Text = "Loading..."; //<== Loading Text Btn
+            LoginBTN.Text = "Loading...";
             
 
             try
             {
-                if (Execute("accessAccount", "userName=" + Usernametb.Text + "&password=" + Password.Text + "&registerKey=" + "MISAKI") == 1)
+                if (Execute("accessAccount", "userName=" + Usernametb.Text + "&password=" + Password.Text + "&registerKey=" + "") == 1)
                 {
-                    Usernametb.Text = Usernametb.Text; //To pass it to any other froms (=global)
+                    Usernametb.Text = Usernametb.Text;
                     //same for pass
 
                     WebClient fetchInfo = new WebClient();
                     string premiumState = fetchInfo.DownloadString("https://gabhx.000webhostapp.com/API/execute.php?action=isPremium&userName=" + Usernametb.Text); //<== API for check if player is PREMIUM / BANNED / FREE
 
-                    if (premiumState == "PREMIUM") //<== If detect player is PREMIUM (PLAYER ALLOWED)
+                    if (premiumState == "PREMIUM")
                     {
                         HWIDReset(); //<== Check if HWID need to be reset or not
                         HWIDAllowed(); //<== Check if HWID match or not
                         GETIP(); //<== Get IP and add it on the database
                         MainForm.instance.CoinBTN.Enabled = true;
                         MainForm.instance.AccountRankText.Text = "PREMIUM!";
+                        MainForm.instance.AccountRankText.Enabled = false;
+
 
                     }
                     else if (premiumState == "BANNED") //<== If detect player is BANNED
@@ -146,18 +122,20 @@ namespace Login_HWID
                         MessageBox.Show("You are banned.", "Login HWID", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         LoginBTN.Text = "Login"; //<== Reset Text Btn
                     }
+                    else if (premiumState == "MODERATOR")
+                    {
+                        MessageBox.Show("You are Moderator!" , "Mod Log" , MessageBoxButtons.OK , MessageBoxIcon.Question);
+                        LoginBTN.Text = "Login";
+                    }
                     else if (premiumState == "FREE") //<== If detect player is FREE
                     {
                         HWIDReset();
                         HWIDAllowed();
                         GETIP();
+                        LoginBTN.Text = "Login";
 
                         MainForm.instance.CoinBTN.Enabled = false;
                         MainForm.instance.AccountRankText.Text = "Free memmber! Some features is disabled! Please read more info clicking on text Your account Rank";
-                       // AllowAccess();
-                        /*                        MessageBox.Show("You are a Free Member, you need purchase it", "Login HWID", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        LoginBTN.Text = "Login"; //<== Reset Text Btn
-                        */
                     }
                     else
                     {
@@ -420,20 +398,20 @@ namespace Login_HWID
 
             if (premiumState == "BANNED")
             {
-                MessageBox.Show("You are banned.", "Login HWID", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("You are banned.", "You are not allowed to use this application untill you get unbaned! Please contact to developer by email!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
-           /*else
-            {
-                Application.Exit();
-            }*/
-
-
 
         }
 
 
+        #region Tool Menu Strip Clicks
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
+        #endregion
 
 
 
@@ -505,5 +483,6 @@ namespace Login_HWID
             System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
         }
 
+        
     }
 }

@@ -38,6 +38,7 @@ namespace Login_HWID
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.NotofocationForApp = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Usernametb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,6 +51,7 @@ namespace Login_HWID
             this.accessibilityFormTXT = new System.Windows.Forms.Label();
             this.BanCheck = new System.Windows.Forms.Timer(this.components);
             TimerAvability = new System.Windows.Forms.Timer(this.components);
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // TimerAvability
@@ -60,7 +62,7 @@ namespace Login_HWID
             // 
             // LoginBTN
             // 
-            this.LoginBTN.Location = new System.Drawing.Point(60, 225);
+            this.LoginBTN.Location = new System.Drawing.Point(88, 225);
             this.LoginBTN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginBTN.Name = "LoginBTN";
             this.LoginBTN.Size = new System.Drawing.Size(147, 23);
@@ -72,7 +74,7 @@ namespace Login_HWID
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 60);
+            this.label1.Location = new System.Drawing.Point(76, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(181, 20);
             this.label1.TabIndex = 3;
@@ -86,7 +88,7 @@ namespace Login_HWID
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(46, 20);
             this.metroLabel1.TabIndex = 4;
-            this.metroLabel1.Text = "V 10.0";
+            this.metroLabel1.Text = "V 12.0";
             // 
             // NotofocationForApp
             // 
@@ -98,12 +100,21 @@ namespace Login_HWID
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 56);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // Usernametb
             // 
-            this.Usernametb.Location = new System.Drawing.Point(55, 117);
+            this.Usernametb.Location = new System.Drawing.Point(83, 117);
             this.Usernametb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Usernametb.Name = "Usernametb";
             this.Usernametb.Size = new System.Drawing.Size(159, 22);
@@ -112,7 +123,7 @@ namespace Login_HWID
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(64, 153);
+            this.label2.Location = new System.Drawing.Point(92, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(129, 16);
             this.label2.TabIndex = 6;
@@ -121,7 +132,7 @@ namespace Login_HWID
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(64, 97);
+            this.label3.Location = new System.Drawing.Point(92, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 16);
             this.label3.TabIndex = 7;
@@ -129,7 +140,7 @@ namespace Login_HWID
             // 
             // Password
             // 
-            this.Password.Location = new System.Drawing.Point(55, 183);
+            this.Password.Location = new System.Drawing.Point(83, 183);
             this.Password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Password.Name = "Password";
             this.Password.Size = new System.Drawing.Size(159, 22);
@@ -138,12 +149,12 @@ namespace Login_HWID
             // RegistrationWebpageLink
             // 
             this.RegistrationWebpageLink.AutoSize = true;
-            this.RegistrationWebpageLink.Location = new System.Drawing.Point(103, 274);
+            this.RegistrationWebpageLink.Location = new System.Drawing.Point(13, 261);
             this.RegistrationWebpageLink.Name = "RegistrationWebpageLink";
-            this.RegistrationWebpageLink.Size = new System.Drawing.Size(58, 16);
+            this.RegistrationWebpageLink.Size = new System.Drawing.Size(335, 16);
             this.RegistrationWebpageLink.TabIndex = 9;
             this.RegistrationWebpageLink.TabStop = true;
-            this.RegistrationWebpageLink.Text = "Register";
+            this.RegistrationWebpageLink.Text = "Dont have a account? Fill form and send it to developer!";
             this.RegistrationWebpageLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // UpdateLink
@@ -227,6 +238,7 @@ namespace Login_HWID
             this.Resizable = false;
             this.Text = "LogIn";
             this.Load += new System.EventHandler(this.Login_Load);
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,5 +262,6 @@ namespace Login_HWID
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label accessibilityFormTXT;
         private System.Windows.Forms.Timer BanCheck;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
