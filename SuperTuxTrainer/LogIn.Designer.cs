@@ -86,9 +86,13 @@ namespace Login_HWID
             this.metroLabel1.Location = new System.Drawing.Point(311, 478);
             this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(46, 20);
+            this.metroLabel1.Size = new System.Drawing.Size(43, 20);
             this.metroLabel1.TabIndex = 4;
+<<<<<<< HEAD
             this.metroLabel1.Text = "V 12.0";
+=======
+            this.metroLabel1.Text = "V 11.0";
+>>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
             // 
             // NotofocationForApp
             // 

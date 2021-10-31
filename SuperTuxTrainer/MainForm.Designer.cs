@@ -49,6 +49,7 @@ namespace SuperTuxTrainer
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
             this.seedidBox = new MetroFramework.Controls.MetroTextBox();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.Harvest = new MetroFramework.Controls.MetroTextBox();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
@@ -70,7 +71,10 @@ namespace SuperTuxTrainer
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton6 = new MetroFramework.Controls.MetroButton();
+<<<<<<< HEAD
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+=======
+>>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
             this.metroTabPage2.SuspendLayout();
             this.metroTabPage3.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
@@ -96,26 +100,26 @@ namespace SuperTuxTrainer
             this.metroTabPage2.Controls.Add(this.webBrowser1);
             this.metroTabPage2.HorizontalScrollbarBarColor = true;
             this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.HorizontalScrollbarSize = 10;
+            this.metroTabPage2.HorizontalScrollbarSize = 8;
             this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroTabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroTabPage2.Name = "metroTabPage2";
-            this.metroTabPage2.Size = new System.Drawing.Size(899, 301);
+            this.metroTabPage2.Size = new System.Drawing.Size(672, 237);
             this.metroTabPage2.Style = MetroFramework.MetroColorStyle.Black;
             this.metroTabPage2.TabIndex = 1;
             this.metroTabPage2.Text = "Update news zone! ";
             this.metroTabPage2.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabPage2.VerticalScrollbarBarColor = true;
             this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.VerticalScrollbarSize = 11;
+            this.metroTabPage2.VerticalScrollbarSize = 8;
             // 
             // metroButton3
             // 
             this.metroButton3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.metroButton3.Location = new System.Drawing.Point(0, 278);
-            this.metroButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton3.Location = new System.Drawing.Point(0, 218);
+            this.metroButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroButton3.Name = "metroButton3";
-            this.metroButton3.Size = new System.Drawing.Size(899, 23);
+            this.metroButton3.Size = new System.Drawing.Size(672, 19);
             this.metroButton3.TabIndex = 3;
             this.metroButton3.Text = "Refresh";
             this.metroButton3.UseSelectable = true;
@@ -125,34 +129,34 @@ namespace SuperTuxTrainer
             // 
             this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Top;
             this.webBrowser1.Location = new System.Drawing.Point(0, 0);
-            this.webBrowser1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(15, 16);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(899, 254);
+            this.webBrowser1.Size = new System.Drawing.Size(672, 206);
             this.webBrowser1.TabIndex = 2;
             this.webBrowser1.Url = new System.Uri("https://gabhx.000webhostapp.com/Updating/updatenews", System.UriKind.Absolute);
             // 
             // metroTabPage3
             // 
-            this.metroTabPage3.Controls.Add(this.metroLabel7);
             this.metroTabPage3.Controls.Add(this.metroLabel5);
             this.metroTabPage3.Controls.Add(this.metroButton5);
             this.metroTabPage3.Controls.Add(this.seedidBox);
+            this.metroTabPage3.Controls.Add(this.metroLabel4);
             this.metroTabPage3.Controls.Add(this.metroButton4);
             this.metroTabPage3.Controls.Add(this.Harvest);
             this.metroTabPage3.HorizontalScrollbarBarColor = true;
             this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.HorizontalScrollbarSize = 10;
+            this.metroTabPage3.HorizontalScrollbarSize = 8;
             this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroTabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(899, 301);
+            this.metroTabPage3.Size = new System.Drawing.Size(672, 237);
             this.metroTabPage3.TabIndex = 2;
             this.metroTabPage3.Text = "Harvesting ";
             this.metroTabPage3.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.VerticalScrollbarSize = 11;
+            this.metroTabPage3.VerticalScrollbarSize = 8;
             // 
             // metroLabel7
             // 
@@ -167,19 +171,20 @@ namespace SuperTuxTrainer
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(48, 25);
+            this.metroLabel5.Location = new System.Drawing.Point(36, 20);
+            this.metroLabel5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(64, 20);
+            this.metroLabel5.Size = new System.Drawing.Size(62, 19);
             this.metroLabel5.TabIndex = 13;
             this.metroLabel5.Text = "Seed id...";
             this.metroLabel5.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroButton5
             // 
-            this.metroButton5.Location = new System.Drawing.Point(283, 25);
-            this.metroButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton5.Location = new System.Drawing.Point(212, 20);
+            this.metroButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroButton5.Name = "metroButton5";
-            this.metroButton5.Size = new System.Drawing.Size(75, 23);
+            this.metroButton5.Size = new System.Drawing.Size(56, 19);
             this.metroButton5.TabIndex = 12;
             this.metroButton5.Text = "SEND";
             this.metroButton5.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -192,18 +197,18 @@ namespace SuperTuxTrainer
             // 
             // 
             this.seedidBox.CustomButton.Image = null;
-            this.seedidBox.CustomButton.Location = new System.Drawing.Point(114, 1);
-            this.seedidBox.CustomButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.seedidBox.CustomButton.Location = new System.Drawing.Point(63, 1);
+            this.seedidBox.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.seedidBox.CustomButton.Name = "";
-            this.seedidBox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.seedidBox.CustomButton.Size = new System.Drawing.Size(13, 14);
             this.seedidBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.seedidBox.CustomButton.TabIndex = 1;
             this.seedidBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.seedidBox.CustomButton.UseSelectable = true;
             this.seedidBox.CustomButton.Visible = false;
             this.seedidBox.Lines = new string[0];
-            this.seedidBox.Location = new System.Drawing.Point(140, 25);
-            this.seedidBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.seedidBox.Location = new System.Drawing.Point(105, 20);
+            this.seedidBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.seedidBox.MaxLength = 9;
             this.seedidBox.Name = "seedidBox";
             this.seedidBox.PasswordChar = '\0';
@@ -213,7 +218,7 @@ namespace SuperTuxTrainer
             this.seedidBox.SelectionLength = 0;
             this.seedidBox.SelectionStart = 0;
             this.seedidBox.ShortcutsEnabled = true;
-            this.seedidBox.Size = new System.Drawing.Size(136, 23);
+            this.seedidBox.Size = new System.Drawing.Size(102, 19);
             this.seedidBox.TabIndex = 11;
             this.seedidBox.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.seedidBox.UseSelectable = true;
@@ -221,12 +226,23 @@ namespace SuperTuxTrainer
             this.seedidBox.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.seedidBox.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.Location = new System.Drawing.Point(297, 20);
+            this.metroLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(186, 19);
+            this.metroLabel4.TabIndex = 10;
+            this.metroLabel4.Text = "Harvester % of seeds inside it..";
+            this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
             // metroButton4
             // 
-            this.metroButton4.Location = new System.Drawing.Point(357, 79);
-            this.metroButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton4.Location = new System.Drawing.Point(572, 20);
+            this.metroButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroButton4.Name = "metroButton4";
-            this.metroButton4.Size = new System.Drawing.Size(75, 23);
+            this.metroButton4.Size = new System.Drawing.Size(56, 19);
             this.metroButton4.TabIndex = 9;
             this.metroButton4.Text = "SEND";
             this.metroButton4.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -239,18 +255,18 @@ namespace SuperTuxTrainer
             // 
             // 
             this.Harvest.CustomButton.Image = null;
-            this.Harvest.CustomButton.Location = new System.Drawing.Point(114, 1);
-            this.Harvest.CustomButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.Harvest.CustomButton.Location = new System.Drawing.Point(63, 1);
+            this.Harvest.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Harvest.CustomButton.Name = "";
-            this.Harvest.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.Harvest.CustomButton.Size = new System.Drawing.Size(13, 14);
             this.Harvest.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.Harvest.CustomButton.TabIndex = 1;
             this.Harvest.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.Harvest.CustomButton.UseSelectable = true;
             this.Harvest.CustomButton.Visible = false;
             this.Harvest.Lines = new string[0];
-            this.Harvest.Location = new System.Drawing.Point(215, 79);
-            this.Harvest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Harvest.Location = new System.Drawing.Point(466, 20);
+            this.Harvest.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Harvest.MaxLength = 9;
             this.Harvest.Name = "Harvest";
             this.Harvest.PasswordChar = '\0';
@@ -260,7 +276,7 @@ namespace SuperTuxTrainer
             this.Harvest.SelectionLength = 0;
             this.Harvest.SelectionStart = 0;
             this.Harvest.ShortcutsEnabled = true;
-            this.Harvest.Size = new System.Drawing.Size(136, 23);
+            this.Harvest.Size = new System.Drawing.Size(102, 19);
             this.Harvest.TabIndex = 8;
             this.Harvest.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Harvest.UseSelectable = true;
@@ -280,25 +296,26 @@ namespace SuperTuxTrainer
             this.metroTabPage1.Controls.Add(this.CoinTextBox);
             this.metroTabPage1.HorizontalScrollbarBarColor = true;
             this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.HorizontalScrollbarSize = 10;
+            this.metroTabPage1.HorizontalScrollbarSize = 8;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroTabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(899, 301);
+            this.metroTabPage1.Size = new System.Drawing.Size(672, 237);
             this.metroTabPage1.Style = MetroFramework.MetroColorStyle.Magenta;
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Hacking zone! ";
             this.metroTabPage1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabPage1.VerticalScrollbarBarColor = true;
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.VerticalScrollbarSize = 11;
+            this.metroTabPage1.VerticalScrollbarSize = 8;
             // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(-4, 54);
+            this.metroLabel3.Location = new System.Drawing.Point(-3, 44);
+            this.metroLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(136, 20);
+            this.metroLabel3.Size = new System.Drawing.Size(129, 19);
             this.metroLabel3.TabIndex = 8;
             this.metroLabel3.Text = "Fule for all machines";
             this.metroLabel3.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -306,19 +323,20 @@ namespace SuperTuxTrainer
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(89, 14);
+            this.metroLabel2.Location = new System.Drawing.Point(67, 11);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(43, 20);
+            this.metroLabel2.Size = new System.Drawing.Size(41, 19);
             this.metroLabel2.TabIndex = 7;
             this.metroLabel2.Text = "Coins";
             this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(311, 50);
-            this.metroButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton2.Location = new System.Drawing.Point(233, 41);
+            this.metroButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(75, 23);
+            this.metroButton2.Size = new System.Drawing.Size(56, 19);
             this.metroButton2.TabIndex = 6;
             this.metroButton2.Text = "SEND";
             this.metroButton2.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -332,18 +350,18 @@ namespace SuperTuxTrainer
             // 
             // 
             this.FuleTextBox.CustomButton.Image = null;
-            this.FuleTextBox.CustomButton.Location = new System.Drawing.Point(114, 1);
-            this.FuleTextBox.CustomButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.FuleTextBox.CustomButton.Location = new System.Drawing.Point(63, 1);
+            this.FuleTextBox.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FuleTextBox.CustomButton.Name = "";
-            this.FuleTextBox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.FuleTextBox.CustomButton.Size = new System.Drawing.Size(13, 14);
             this.FuleTextBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.FuleTextBox.CustomButton.TabIndex = 1;
             this.FuleTextBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.FuleTextBox.CustomButton.UseSelectable = true;
             this.FuleTextBox.CustomButton.Visible = false;
             this.FuleTextBox.Lines = new string[0];
-            this.FuleTextBox.Location = new System.Drawing.Point(169, 50);
-            this.FuleTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FuleTextBox.Location = new System.Drawing.Point(127, 41);
+            this.FuleTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FuleTextBox.MaxLength = 3;
             this.FuleTextBox.Name = "FuleTextBox";
             this.FuleTextBox.PasswordChar = '\0';
@@ -353,7 +371,7 @@ namespace SuperTuxTrainer
             this.FuleTextBox.SelectionLength = 0;
             this.FuleTextBox.SelectionStart = 0;
             this.FuleTextBox.ShortcutsEnabled = true;
-            this.FuleTextBox.Size = new System.Drawing.Size(136, 23);
+            this.FuleTextBox.Size = new System.Drawing.Size(102, 19);
             this.FuleTextBox.TabIndex = 5;
             this.FuleTextBox.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.FuleTextBox.UseSelectable = true;
@@ -366,18 +384,19 @@ namespace SuperTuxTrainer
             // 
             this.ProcOpenLabel.AutoSize = true;
             this.ProcOpenLabel.BackColor = System.Drawing.Color.Gray;
-            this.ProcOpenLabel.Location = new System.Drawing.Point(300, 111);
+            this.ProcOpenLabel.Location = new System.Drawing.Point(225, 90);
+            this.ProcOpenLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ProcOpenLabel.Name = "ProcOpenLabel";
-            this.ProcOpenLabel.Size = new System.Drawing.Size(11, 16);
+            this.ProcOpenLabel.Size = new System.Drawing.Size(10, 13);
             this.ProcOpenLabel.TabIndex = 4;
             this.ProcOpenLabel.Text = "-";
             // 
             // CoinButton
             // 
-            this.CoinButton.Location = new System.Drawing.Point(311, 14);
-            this.CoinButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CoinButton.Location = new System.Drawing.Point(233, 11);
+            this.CoinButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CoinButton.Name = "CoinButton";
-            this.CoinButton.Size = new System.Drawing.Size(75, 23);
+            this.CoinButton.Size = new System.Drawing.Size(56, 19);
             this.CoinButton.TabIndex = 3;
             this.CoinButton.Text = "SEND";
             this.CoinButton.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -387,9 +406,10 @@ namespace SuperTuxTrainer
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(213, 110);
+            this.metroLabel1.Location = new System.Drawing.Point(160, 89);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(60, 20);
+            this.metroLabel1.Size = new System.Drawing.Size(56, 19);
             this.metroLabel1.TabIndex = 2;
             this.metroLabel1.Text = "Process:";
             this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -401,18 +421,18 @@ namespace SuperTuxTrainer
             // 
             // 
             this.CoinTextBox.CustomButton.Image = null;
-            this.CoinTextBox.CustomButton.Location = new System.Drawing.Point(114, 1);
-            this.CoinTextBox.CustomButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.CoinTextBox.CustomButton.Location = new System.Drawing.Point(63, 1);
+            this.CoinTextBox.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CoinTextBox.CustomButton.Name = "";
-            this.CoinTextBox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.CoinTextBox.CustomButton.Size = new System.Drawing.Size(13, 14);
             this.CoinTextBox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.CoinTextBox.CustomButton.TabIndex = 1;
             this.CoinTextBox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.CoinTextBox.CustomButton.UseSelectable = true;
             this.CoinTextBox.CustomButton.Visible = false;
             this.CoinTextBox.Lines = new string[0];
-            this.CoinTextBox.Location = new System.Drawing.Point(169, 14);
-            this.CoinTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CoinTextBox.Location = new System.Drawing.Point(127, 11);
+            this.CoinTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CoinTextBox.MaxLength = 9;
             this.CoinTextBox.Name = "CoinTextBox";
             this.CoinTextBox.PasswordChar = '\0';
@@ -422,7 +442,7 @@ namespace SuperTuxTrainer
             this.CoinTextBox.SelectionLength = 0;
             this.CoinTextBox.SelectionStart = 0;
             this.CoinTextBox.ShortcutsEnabled = true;
-            this.CoinTextBox.Size = new System.Drawing.Size(136, 23);
+            this.CoinTextBox.Size = new System.Drawing.Size(102, 19);
             this.CoinTextBox.TabIndex = 0;
             this.CoinTextBox.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.CoinTextBox.UseSelectable = true;
@@ -438,11 +458,11 @@ namespace SuperTuxTrainer
             this.metroTabControl1.Controls.Add(this.metroTabPage3);
             this.metroTabControl1.Controls.Add(this.metroTabPage2);
             this.metroTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroTabControl1.Location = new System.Drawing.Point(20, 74);
-            this.metroTabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroTabControl1.Location = new System.Drawing.Point(15, 60);
+            this.metroTabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroTabControl1.Name = "metroTabControl1";
-            this.metroTabControl1.SelectedIndex = 1;
-            this.metroTabControl1.Size = new System.Drawing.Size(907, 343);
+            this.metroTabControl1.SelectedIndex = 0;
+            this.metroTabControl1.Size = new System.Drawing.Size(680, 279);
             this.metroTabControl1.Style = MetroFramework.MetroColorStyle.Orange;
             this.metroTabControl1.TabIndex = 4;
             this.metroTabControl1.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -458,24 +478,25 @@ namespace SuperTuxTrainer
             this.metroTabPage4.Controls.Add(this.metroLabel6);
             this.metroTabPage4.HorizontalScrollbarBarColor = true;
             this.metroTabPage4.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.HorizontalScrollbarSize = 10;
+            this.metroTabPage4.HorizontalScrollbarSize = 8;
             this.metroTabPage4.Location = new System.Drawing.Point(4, 38);
-            this.metroTabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroTabPage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroTabPage4.Name = "metroTabPage4";
-            this.metroTabPage4.Size = new System.Drawing.Size(899, 301);
+            this.metroTabPage4.Size = new System.Drawing.Size(672, 237);
             this.metroTabPage4.TabIndex = 3;
             this.metroTabPage4.Text = "Account information";
             this.metroTabPage4.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabPage4.VerticalScrollbarBarColor = true;
             this.metroTabPage4.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage4.VerticalScrollbarSize = 11;
+            this.metroTabPage4.VerticalScrollbarSize = 8;
             // 
             // AccRank
             // 
             this.AccRank.AutoSize = true;
-            this.AccRank.Location = new System.Drawing.Point(23, 203);
+            this.AccRank.Location = new System.Drawing.Point(17, 165);
+            this.AccRank.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AccRank.Name = "AccRank";
-            this.AccRank.Size = new System.Drawing.Size(15, 20);
+            this.AccRank.Size = new System.Drawing.Size(15, 19);
             this.AccRank.TabIndex = 7;
             this.AccRank.Text = "-";
             this.AccRank.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -483,9 +504,10 @@ namespace SuperTuxTrainer
             // metroLabel10
             // 
             this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(21, 167);
+            this.metroLabel10.Location = new System.Drawing.Point(16, 136);
+            this.metroLabel10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(129, 20);
+            this.metroLabel10.Size = new System.Drawing.Size(122, 19);
             this.metroLabel10.TabIndex = 6;
             this.metroLabel10.Text = "Your Account Rank:";
             this.metroLabel10.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -494,9 +516,10 @@ namespace SuperTuxTrainer
             // AccPassword
             // 
             this.AccPassword.AutoSize = true;
-            this.AccPassword.Location = new System.Drawing.Point(24, 133);
+            this.AccPassword.Location = new System.Drawing.Point(18, 108);
+            this.AccPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AccPassword.Name = "AccPassword";
-            this.AccPassword.Size = new System.Drawing.Size(15, 20);
+            this.AccPassword.Size = new System.Drawing.Size(15, 19);
             this.AccPassword.TabIndex = 5;
             this.AccPassword.Text = "-";
             this.AccPassword.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -504,9 +527,10 @@ namespace SuperTuxTrainer
             // metroLabel8
             // 
             this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(24, 101);
+            this.metroLabel8.Location = new System.Drawing.Point(18, 82);
+            this.metroLabel8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(124, 20);
+            this.metroLabel8.Size = new System.Drawing.Size(117, 19);
             this.metroLabel8.TabIndex = 4;
             this.metroLabel8.Text = "Account Password:";
             this.metroLabel8.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -514,9 +538,10 @@ namespace SuperTuxTrainer
             // AccUsername
             // 
             this.AccUsername.AutoSize = true;
-            this.AccUsername.Location = new System.Drawing.Point(24, 68);
+            this.AccUsername.Location = new System.Drawing.Point(18, 55);
+            this.AccUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AccUsername.Name = "AccUsername";
-            this.AccUsername.Size = new System.Drawing.Size(15, 20);
+            this.AccUsername.Size = new System.Drawing.Size(15, 19);
             this.AccUsername.TabIndex = 3;
             this.AccUsername.Text = "-";
             this.AccUsername.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -524,19 +549,20 @@ namespace SuperTuxTrainer
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(24, 33);
+            this.metroLabel6.Location = new System.Drawing.Point(18, 27);
+            this.metroLabel6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(131, 20);
+            this.metroLabel6.Size = new System.Drawing.Size(122, 19);
             this.metroLabel6.TabIndex = 2;
             this.metroLabel6.Text = "Account Username:";
             this.metroLabel6.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(927, 9);
-            this.metroButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton1.Location = new System.Drawing.Point(695, 7);
+            this.metroButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(21, 17);
+            this.metroButton1.Size = new System.Drawing.Size(16, 14);
             this.metroButton1.TabIndex = 5;
             this.metroButton1.Text = "X";
             this.metroButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -545,16 +571,17 @@ namespace SuperTuxTrainer
             // 
             // metroButton6
             // 
-            this.metroButton6.Location = new System.Drawing.Point(900, 9);
-            this.metroButton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton6.Location = new System.Drawing.Point(675, 7);
+            this.metroButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroButton6.Name = "metroButton6";
-            this.metroButton6.Size = new System.Drawing.Size(21, 17);
+            this.metroButton6.Size = new System.Drawing.Size(16, 14);
             this.metroButton6.TabIndex = 6;
             this.metroButton6.Text = "_";
             this.metroButton6.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroButton6.UseSelectable = true;
             this.metroButton6.Click += new System.EventHandler(this.metroButton6_Click);
             // 
+<<<<<<< HEAD
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
@@ -566,21 +593,22 @@ namespace SuperTuxTrainer
             this.metroLabel4.Text = "Farm Simulator 14";
             this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
+=======
+>>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 437);
+            this.ClientSize = new System.Drawing.Size(710, 355);
             this.ControlBox = false;
-            this.Controls.Add(this.metroLabel4);
             this.Controls.Add(this.metroButton6);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroTabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Padding = new System.Windows.Forms.Padding(20, 74, 20, 20);
+            this.Padding = new System.Windows.Forms.Padding(15, 60, 15, 16);
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Green;
             this.Text = "HACKING ZONE!";
@@ -595,7 +623,6 @@ namespace SuperTuxTrainer
             this.metroTabPage4.ResumeLayout(false);
             this.metroTabPage4.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -610,6 +637,7 @@ namespace SuperTuxTrainer
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroButton metroButton5;
         private MetroFramework.Controls.MetroTextBox seedidBox;
+        private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroButton metroButton4;
         private MetroFramework.Controls.MetroTextBox Harvest;
         private MetroFramework.Controls.MetroTabPage metroTabPage1;
@@ -631,7 +659,5 @@ namespace SuperTuxTrainer
         private MetroFramework.Controls.MetroLabel metroLabel6;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton6;
-        private MetroFramework.Controls.MetroLabel metroLabel7;
-        private MetroFramework.Controls.MetroLabel metroLabel4;
     }
 }
