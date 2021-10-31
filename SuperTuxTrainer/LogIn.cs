@@ -37,15 +37,7 @@ namespace Login_HWID
             WebClient webClient = new WebClient();
             try
             {
-<<<<<<< HEAD
-<<<<<<< HEAD
                 if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("12"))
-=======
-                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("11"))
->>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
-=======
-                if (!webClient.DownloadString("https://gabhx.000webhostapp.com/Updating/version.txt").Contains("11"))
->>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
                 {
 
 
