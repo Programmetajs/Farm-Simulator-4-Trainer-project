@@ -393,7 +393,7 @@ namespace Login_HWID
 
 
 
-            WebClient fetchBanInfo = new WebClient();
+            /*WebClient fetchBanInfo = new WebClient();
             string premiumState = fetchBanInfo.DownloadString("https://gabhx.000webhostapp.com/API/execute.php?action=isPremium&userName=" + Usernametb.Text);
 
             if (premiumState == "BANNED")
@@ -401,14 +401,16 @@ namespace Login_HWID
                 MessageBox.Show("You are banned.", "You are not allowed to use this application untill you get unbaned! Please contact to developer by email!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
-
+            */
         }
 
 
         #region Tool Menu Strip Clicks
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        [Obsolete]
+        private void showApplicationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Login ShowForm = new Login();
+            ShowForm.Show();
         }
 
         #endregion
@@ -483,6 +485,9 @@ namespace Login_HWID
             System.Diagnostics.Process.Start("https://gabhx.000webhostapp.com/Updating/updatenews");
         }
 
-        
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
