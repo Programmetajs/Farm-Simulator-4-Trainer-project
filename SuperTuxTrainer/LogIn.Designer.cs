@@ -89,7 +89,11 @@ namespace Login_HWID
             this.metroLabel1.Size = new System.Drawing.Size(43, 20);
             this.metroLabel1.TabIndex = 4;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.metroLabel1.Text = "V 12.0";
+=======
+            this.metroLabel1.Text = "V 11.0";
+>>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
 =======
             this.metroLabel1.Text = "V 11.0";
 >>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)

@@ -72,7 +72,10 @@ namespace SuperTuxTrainer
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton6 = new MetroFramework.Controls.MetroButton();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+=======
+>>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
 =======
 >>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
             this.metroTabPage2.SuspendLayout();
@@ -157,6 +160,7 @@ namespace SuperTuxTrainer
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 8;
+<<<<<<< HEAD
             // 
             // metroLabel7
             // 
@@ -167,6 +171,8 @@ namespace SuperTuxTrainer
             this.metroLabel7.TabIndex = 13;
             this.metroLabel7.Text = "Seed % in harvester";
             this.metroLabel7.Theme = MetroFramework.MetroThemeStyle.Dark;
+=======
+>>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
             // 
             // metroLabel5
             // 
@@ -582,6 +588,7 @@ namespace SuperTuxTrainer
             this.metroButton6.Click += new System.EventHandler(this.metroButton6_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
@@ -593,6 +600,8 @@ namespace SuperTuxTrainer
             this.metroLabel4.Text = "Farm Simulator 14";
             this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
+=======
+>>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
 =======
 >>>>>>> parent of 70a604b (Saving big changes what is made in this project! What i remmber i just now updated code in updater and remade setup because there was problem what i didnt saw but now thei are fixed....)
             // MainForm
