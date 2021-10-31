@@ -665,7 +665,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Farm Simulator 14 Application Hack Setup"
         "ProductCode" = "8:{086A77F7-A721-4CCE-8514-B4589A0DB00D}"
-        "PackageCode" = "8:{3D6E9900-3F42-4E09-A994-AFF6483BDE4F}"
+        "PackageCode" = "8:{6A73FF29-D8D7-4BD3-AD96-B1585400AF6F}"
         "UpgradeCode" = "8:{63FFC88A-A2BE-4C95-BB8C-BFFCD592E3DF}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -982,7 +982,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:2"
                             "Setting" = "3:2"
-                            "Value" = "8:<###%-%%#%-#%%%>"
+                            "Value" = "8:<%%###%-%%%#%-#%%%-%%>"
                             "DefaultValue" = "8:<###-%%%%%%%>"
                             "UsePlugInResources" = "11:TRUE"
                             }
