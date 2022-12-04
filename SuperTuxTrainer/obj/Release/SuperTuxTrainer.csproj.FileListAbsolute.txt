@@ -55,3 +55,21 @@ C:\Users\zikma\Desktop\GitHub  Desktop\Farm-Simulator-4-Trainer-project\SuperTux
 =======
 C:\Users\zikma\GitHub Desktop\Farm Sumulator 4 traienr\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.csproj.AssemblyReference.cache
 >>>>>>> parent of 4ecda06 (saving changges before restarting pc)
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\SuperTuxTrainer.exe.config
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\SuperTuxTrainer.exe
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\SuperTuxTrainer.pdb
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\Memory.dll
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\MetroFramework.Design.dll
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\MetroFramework.dll
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\MetroFramework.Fonts.dll
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\bin\Release\SimpleTCP.dll
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.csproj.AssemblyReference.cache
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.csproj.SuggestedBindingRedirects.cache
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\Login_HWID.Login.resources
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.MainForm.resources
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.Properties.Resources.resources
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.csproj.GenerateResource.cache
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.csproj.CoreCompileInputs.cache
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.csproj.CopyComplete
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.exe
+C:\Users\zikma\Documents\GitHub\Farm-Simulator-4-Trainer-project\SuperTuxTrainer\obj\Release\SuperTuxTrainer.pdb
